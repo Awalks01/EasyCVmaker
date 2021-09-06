@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar */
+#nav {
+  position: sticky;
+  top: 0;
+  z-index: 1001;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #011627, #01213c);
+}
+
+.navbar-brand span {
+  padding: 0;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* ----------------- */
+
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+  color: #444;
+  padding: 0 0 10px;
+}
+
+h2,
+h3 {
+  font-size: 18px;
+}
+
+/* Banner */
+#banner {
+  position: relative;
+  text-align: center;
+  background-image: linear-gradient(to right, #011627, #01213c);
+  color: white;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+#banner > .banner > .container > img {
+  margin-bottom: 30px;
+}
+
+#banner > .banner > .container button {
+  background: #f71735;
+  color: #fff;
+  top: 0;
+  font-weight: 700;
+  padding: 18px 20px 19px;
+}
+
+.wave {
+  position: absolute;
+  bottom: -10%;
+  left: 0;
+}
+
+/* How it work */
+
+.page--how-it-works {
+  margin-top: -20px;
+  z-index: 9999;
+  padding-bottom: 40px;
+}
+
+.page-main__inner {
+  width: 100%;
+  max-width: 900px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.how-it-works__item {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-height: 100px;
+  text-align: center;
+  margin: 0 0 25px;
+  padding: 0 30px 0 160px;
+  border-radius: 4px;
+}
+
+.page--box {
+  background: #fff;
+  box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%);
+}
+
+.how-it-works__icon {
+  position: absolute;
+  top: 50%;
+  height: 80px;
+  width: 80px;
+  background: #f0f1ff;
+  border-radius: 50%;
+  left: 40px;
+  padding: 0;
+  margin: -40px 20px 0 0;
+  text-align: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.how-it-works__icon img {
+  display: inline-block;
+  position: relative;
+  height: 75px;
+  width: 75px;
+}
+
+.how-it-works__title {
+  display: block;
+  text-align: left;
+  padding: 40px 0 10px;
+}
+
+.how-it-works__item p {
+  text-align: left;
+  padding: 0 0 44px;
+}
+
+/* Tentang */
+.page-title {
+  display: block;
+  text-align: center;
+  padding: 60px 0 10px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #444;
+}
+
+.page-intro {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 60px;
+}
+
+p {
+  font-weight: 400;
+  padding: 0 0 20px;
+  line-height: 28px;
+}
+
+.content-list {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: disc;
+  padding: 0 0 20px 17px;
+}
+
+ol,
+ul {
+  list-style-position: outside;
+  line-height: 28px;
+  padding: 0 0 20px 15px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.content-list__item {
+  display: block;
+  list-style: none;
+  border-radius: 4px;
+  padding: 0 40px 20px;
+  margin: 0 0 40px;
+}
+
+.content-list__title {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+/* MORE */
+#more {
+  position: relative;
+  background-color: #011627;
+  color: white;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  z-index: 1;
+}
+
+#more > .more > .container button {
+  background: #f71735;
+  color: #fff;
+  top: 0;
+  font-weight: 700;
+  padding: 18px 20px 19px;
+  z-index: 1;
+}
+
+.wave {
+  position: absolute;
+  bottom: -45%;
+  left: 0;
+  z-index: -1;
+}
+
+/* footer */
+.page-footer-container {
+  position: relative;
+  z-index: 1;
+}
+
+.page-footer,
+.page-footer-container {
+  display: block;
+}
+
+.page-footer.-secondary {
+  color: black;
+}
+
+/* Responsiv */
+
+@media screen and (max-width: 450px) {
+  .page--body {
+    padding: 30px 15px 10px;
+  }
+
+  .page--how-it-works {
+    max-height: 100%;
+    padding-bottom: 30px;
+  }
+
+  .page--how-it-works {
+    margin-top: -20px;
+  }
+
+  .how-it-works {
+    flex-direction: column;
+  }
+
+  .how-it-works__item {
+    padding: 25px 30px 30px;
+  }
+
+  .how-it-works__title {
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .how-it-works__item p {
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .how-it-works__icon {
+    left: 15px;
+    float: none;
+    height: 75px;
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    left: 10px;
+  }
+}
