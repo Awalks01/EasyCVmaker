@@ -64,3 +64,4 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 # EasyCVmaker
 # EasyCVmaker
 # EasyCVmaker
+# EasyCVmaker
